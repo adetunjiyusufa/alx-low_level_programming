@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdarg.h>
 
 /**
  * main -print all single digit numbers of base 10 starting from 0 with putchar
@@ -14,9 +12,9 @@ int main(void)
 int n;
 
 	for (n = 0; n < 10; n++)
-		putchar((n%10) + '0');
+		putchar((n % 10) + '0');
 
 
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
