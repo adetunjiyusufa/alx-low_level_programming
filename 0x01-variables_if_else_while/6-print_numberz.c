@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdarg.h>
+
 /**
  * main -print all single digit numbers of base 10 starting from 0 with putchar
  * char variable is not allowed
