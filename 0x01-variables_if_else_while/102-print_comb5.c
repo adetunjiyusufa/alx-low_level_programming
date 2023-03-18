@@ -17,11 +17,11 @@ int x, y;
 			{
 				if (x < y)
 				{
-					putchar((x / 10) + '48');
-					putchar((x % 10) + '48');
+					putchar((x / 10) + '0');
+					putchar((x % 10) + '0');
 					putchar(' ');
-					putchar((y / 10) + '48');
-					putchar((y % 10) + '48');
+					putchar((y / 10) + '0');
+					putchar((y % 10) + '0');
 					if (x != 98 || y != 99)
 					{
 						putchar(',');
