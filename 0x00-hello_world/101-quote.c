@@ -1,12 +1,14 @@
 #include <unistd.h>
 /**
- * main - Print a line of code in C using write
+ * main - To prints exactly and that piece of art is useful"
+ * - Dora Korpar, 2015-10-19,
+ *  followed by a new line,
  *
  * Return: 1
 */
 int main(void)
 {
-	write(2, 
+	write(2,
 		"and that piece of art is useful" - Dora Korpar, 2015 - 10 - 19",
 		59);
 
