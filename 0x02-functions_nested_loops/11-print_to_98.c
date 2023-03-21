@@ -1,7 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * void print - to prints all natural numbers from n to 98,
+ * print_to_98 - to prints all natural numbers from n to 98,
  *	followed by a new line.
  * Numbers must be separated by a comma,
  * followed by a space Numbers should be printed in order
