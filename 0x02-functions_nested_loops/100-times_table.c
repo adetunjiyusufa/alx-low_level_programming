@@ -3,7 +3,7 @@
 /**
  * print_times_table - to prints the n times table, starting with 0
  * @n: is the number the times table ends
- *
+ * Return: 0
 */
 
 void print_times_table(int n)
@@ -42,4 +42,5 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
+	return (0);
 }
