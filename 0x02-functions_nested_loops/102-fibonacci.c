@@ -4,7 +4,6 @@
  * main - prints the first 50 Fibonacci numbers, starting with 1 and 2,
  *	followed by a new line
  *	The numbers must be separated by comma, followed by a space ,
- *@s: is the sum of the Fibonacci numbers
  * Return: 0
  *
 */
@@ -12,24 +11,20 @@
 int main(void)
 {
 	int count;
-	unsigned long fnum1 = 1, fnum2 = 2, s;
+	unsigned long fnum1 = 1, fnum2 = 2, sum;
 
 	for (count = 0; count < 50; count++)
 	{
-		s = fnum1 + fnum2;
-		putchar('s');
-		{
+		sum = fnum1 + fnum2;
+		printf("%lu", sum);
+
 			fnum1 = fnum2;
-			fnum2 = s;
-		}
+			fnum2 = sum;
 
 			if (count == 49)
-				putchar('\n');
+				printf('\n');
 			else
-			{
-				putchar(',');
-				putchar(' ');
-			}
+				printf(', ');
 	}
 	return (0);
 }
