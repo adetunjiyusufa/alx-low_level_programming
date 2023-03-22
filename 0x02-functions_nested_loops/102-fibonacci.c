@@ -11,7 +11,7 @@
 int main(void)
 {
 	int count;
-	unsigned long fnum1 = 1, fnum2 = 2, sum;
+	unsigned long fnum1 = 0, fnum2 = 1, sum;
 
 	for (count = 0; count < 50; count++)
 	{
