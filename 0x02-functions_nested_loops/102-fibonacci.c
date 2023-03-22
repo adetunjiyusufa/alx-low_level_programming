@@ -24,8 +24,10 @@ int main(void)
 			if (count == 49)
 				putchar('\n');
 			else
+			{
 				putchar(',');
 				putchar(' ');
+			}
 	}
 	return (0);
 }
