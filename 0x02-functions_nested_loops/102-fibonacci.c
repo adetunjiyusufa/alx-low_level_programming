@@ -4,6 +4,7 @@
  * main - prints the first 50 Fibonacci numbers, starting with 1 and 2,
  *	followed by a new line
  *	The numbers must be separated by comma, followed by a space ,
+ *@s: is the sum of the Fibonacci numbers
  * Return: 0
  *
 */
@@ -17,9 +18,10 @@ int main(void)
 	{
 		s = fnum1 + fnum2;
 		putchar('s');
-
+		{
 			fnum1 = fnum2;
 			fnum2 = s;
+		}
 
 			if (count == 49)
 				putchar('\n');
