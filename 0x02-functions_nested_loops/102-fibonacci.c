@@ -11,20 +11,21 @@
 int main(void)
 {
 	int count;
-	unsigned long fnum1 = 1, fnum2 = 2, sum;
+	unsigned long fnum1 = 1, fnum2 = 2, s;
 
 	for (count = 0; count < 50; count++)
 	{
-		sum = fnum1 + fnum2;
-		putchar('sum');
+		s = fnum1 + fnum2;
+		putchar('s');
 
 			fnum1 = fnum2;
-			fnum2 = sum;
+			fnum2 = s;
 
 			if (count == 49)
 				putchar('\n');
 			else
-				putchar(', ');
+				putchar(',');
+				putchar(' ');
 	}
 	return (0);
 }
