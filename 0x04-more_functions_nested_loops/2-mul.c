@@ -4,13 +4,10 @@
  * mul - to multiplies two integers.
  * @a: first number to be multiply
  * @b: second number to be multiply
- *
+ * Return: addition of multiplication
  */
 
 int mul(int a, int b)
 {
-	int a, b, prod;
-
-	prod = a * b
-		printf("%d" prod)
+	return (a * b);
 }
