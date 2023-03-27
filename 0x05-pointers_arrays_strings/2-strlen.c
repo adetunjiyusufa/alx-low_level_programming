@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-	int a = o;
+	int a = 0;
 
 	for (; *s++;)
 		a++;
