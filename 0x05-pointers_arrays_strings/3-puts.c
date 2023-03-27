@@ -16,13 +16,4 @@ void _puts(char *str)
 		i++;
 	}
 	_putchar('\n');
-	_putchar('t');
-	_putchar('o');
-	_putchar(' ');
-	_putchar('s');
-	_putchar('t');
-	_putchar('d');
-	_putchar('0');
-	_putchar('u');
-	_putchar('t');
 }
