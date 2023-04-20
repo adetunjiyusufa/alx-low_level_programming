@@ -12,7 +12,6 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	
 	va_list ap;
 	unsigned int x;
 
@@ -27,7 +26,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if (x < n - 1)
 			printf("%s", separator);
 	}
-	printf("\n");
+	_putchar("\n");
 
 	va_end(ap);
 }
