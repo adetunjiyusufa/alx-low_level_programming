@@ -1,5 +1,6 @@
 #ifndef _HEADER_
-#define _HEADER
+#define _HEADER_
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
